@@ -1,0 +1,13 @@
+server:
+  port: 8080
+  contextPath: /RestApi
+spring:
+  jpa:
+    database: MYSQL
+    hibernate:
+      ddl-auto: validate
+  datasource:
+    url: jdbc:mysql://aws-test.cm7d5lgfchgt.us-east-1.rds.amazonaws.com:3306/awstest
+    username: awstest
+    password: awstest.2017
+    driver-class-name: com.mysql.jdbc.Driver
